@@ -1,5 +1,5 @@
 module DjMon
-  class DjReportsController < BaseController
+  class DjReportsController < ApplicationController
     respond_to :json, :html
     layout 'dj_mon'
 
